@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lan="eng">
+    <head>
+        <link rel="shortcut icon" href="Hexa.png" type="image/x-icon"/>
+        <meta charset="UTF-8"/>
+        <title>Hexa Foundation Portfolio</title>
+        <meta name="Viewpoint" content="Width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="background">
+        <div class="Logo" id="image">
+       <img src="Hexa.png" alt="logo" class="himage">
+       </div>
+        </div>
+        <hr>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown">
+              <button class="dropbtn">projects
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Project 1</a>
+                <a href="#">Project 2</a>
+                <a href="#">Project 3</a>
+              </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div> 
+        <!--
+        <div>
+            <nav class="topnav">
+                <div class="dropdown">
+                <ul class="tags">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            </nav>
+                 -->
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-4" class="text1">
+                <h1>Welcome to Hexa Foundation...</h1>
+                <h3>Where perfomance matters</h3>
+                <br>
+                <p class="pharagraph">According to IEE explore survey teamwork is recognized as an important skill for engineering and computer science professionals. 
+                    Both potential employers and accrediting agencies, such as ABET, expect students to gain proficiency in teamwork skills through experiential learning. <span id="dots">...</span><span id="more"> The empirical survey by IEE therefore creates a platform for Hexa Foundation perfect collaboration,
+                     as teamwork become the overwhelmingly dominant form of research, so rewarding effective teams.Students learning how to collaborate, and supporting research on what works and what doesn't have taken on new importance over the years Hexa Foundation is entangled to perfomance and team work that's why here is where perfomance matters.  </span></p>
+
+                <button onclick="myFunction()" id="myBtn">Read more</button> 
+                  <br>
+
+                  <div class="column">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="county">county</label>
+                      <select id="county" name="county">
+                        <option value="Nairobi">Nairobi</option>
+                        <option value="Nakuru">Nakuru</option>
+                        <option value="Kisumu">Kisumu</option>
+                        <option value="kajiado">kajiado</option>
+                        <option value="Kiambu">kiambu</option>
+                        <option value="Murang'a">Murang'a</option>
+                        <option value="Nyeri">Nyeri</option>
+                        <option value="Eldoret">Eldoret</option>
+                      </select>
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Give Hexa your comments.." style="height:170px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+
+            </div>
+            <div class="col-8">
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 6</div>
+              <img src="innovation.png" style="width:100%">
+              <div class="text">Creative Thinking and innovation</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 6</div>
+              <img src="graphic.png" style="width:100%">
+              <div class="text">Graphics and Design</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 6</div>
+              <img src="intelligence.png" style="width:100%">
+              <div class="text">Machine learning</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="impression1.png" style="width:100%">
+                <div class="text">C</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="dirty1.png" style="width:100%">
+                <div class="text">Thinking</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="design2.png" style="width:100%">
+                <div class="text">Cu</div>
+              </div>
+        </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <!--  <div class="video">
+              
+           <video width="65%" height="65%" controls>
+                <source src="hexa.mp4" type="video/mp4">
+              </video> 
+            </div>-->
+            <div class="meter">
+              <h3>Hexa Skills Analysis</h3>
+              <h4>web programming technologies 50% fair</h4>
+              <meter value="50" min="0" max="100" optimum="90" low="20" high="80"></meter>
+              <h4>Linux Operating system 45% Average</h4>
+              <meter value="45" min="0" max="100" optimum="90" low="20" high="80"></meter>
+              <h4>Git and github 80% High (Version controls)</h4>
+              <meter value="80" min="0" max="100" optimum="90" low="20" high="80"></meter>
+              <h4>teamwork 20%(far from optimum)</h4>
+              <meter value="20" min="0" max="100" optimum="90" low="20" high="80"></meter>
+            </div>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+    </div>
+    <script src="main.js"></script>
+    <!--adding footers-->
+
+
+
+   <footer>
+ <div class="row" class="lowersec">
+      <div class="col-4" class="mail">
+        <p>Author: Hexa Foundation</p>
+        <p><a href="mailto:hexafoundation@gmail.com">hexafoundatio@gmail.com</a></p>
+    </div>
+    <div class="col-8">
+ <!-- i will add anything in this column as time goes-->
+
+    </div>
+    </div>
+    </footer> 
+    </body>
+</html>
